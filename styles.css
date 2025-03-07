@@ -113,9 +113,10 @@ h2 {
 }
 
 .name {
-    font-size: 50px;
+    font-size: 53px;
     color: #4CAF50;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .student {
@@ -285,6 +286,7 @@ h2 {
     .name {
         font-size: 24px;
         margin-bottom: 10px;
+        font-weight: bold;
     }
 
     .student {
