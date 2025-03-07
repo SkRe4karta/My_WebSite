@@ -280,6 +280,7 @@ h2 {
     }
 
     .contact-info {
+        order: 3;
         text-align: center;
     }
 
@@ -312,9 +313,9 @@ h2 {
     .about-photo {
         width: 100%;
         max-width: 300px;
-        height: auto;
-        aspect-ratio: 3 / 4;
+        height: 300px; /* Квадратное фото */
         border-radius: 10px;
+        object-fit: cover; /* Чтобы фото не искажалось */
     }
 
     nav ul {
